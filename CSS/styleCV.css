@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Universal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elemento*/
+body {
+    background: #f1ecdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*Classe*/
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #FFF;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.5);
+}
+
+/*Classe*/
+.container .left {
+    position: relative;
+    background: #f58723;
+    padding: 40px;
+}
+
+/*Classe*/
+.port {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+/*Classe*/
+.port .foto{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+/*Classe*/
+.port .foto img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Classe*/
+.port h2{
+    color: #000000;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+/*Classe*/
+.info {
+    padding-top: 20px;
+}
+
+/*Classe*/
+.title {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/*Classe*/
+.info ul{
+    position: relative;
+}
+
+/*Classe*/
+.info ul li {
+    position: relative;
+    margin: 10px 0;
+}
+
+/*Classe*/
+.info ul li .icone {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #000;
+}
+
+/*Classe*/
+.info ul li span {
+    color: #000;
+    font-weight: 300;
+}
+
+/*Classe*/
+.container .right {
+    position: relative;
+    background: #FFF;
+    padding: 40px;
+}
+
+/*Pseudo-classe*/
+a:link {
+    color: #000000;
+}
+
+/*Pseudo-classe*/
+a:visited {
+    color: #c7ba99;
+}
+
+/*Pseudo-classe*/
+a:hover {
+    color: #00fffb;
+}
+
+/*Pseudo-classe*/
+a:active {
+    color: #ff0000;
+}
+/*Atributo*/
+a[href="https://www.linkedin.com/in/henry-chida-424a41332/"] {
+    background-color: #FFF;
+}
+/*ID*/
+#p1 {
+    font-style: italic;
+}
+
+.title2 {
+    font-family: 'Doto', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}

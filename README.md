@@ -1,2 +1,1 @@
-# henrycix.github.io
-XD
+Curriculum vitæ
